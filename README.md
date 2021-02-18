@@ -3,6 +3,6 @@
 
 ### Install
 ```
-~/.config/sublime-text-3/Packages
+cd ~/.config/sublime-text-3/Packages
 git clone https://github.com/YuriGor/ReactPropTypesSublimeCompletions.git
 ```
