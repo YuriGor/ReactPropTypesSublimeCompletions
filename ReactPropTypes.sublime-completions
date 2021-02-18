@@ -1,0 +1,53 @@
+{
+  "scope": "source.js.jsx",
+  "completions": [
+    "PropTypes.array.isRequired,\n",
+    "PropTypes.bool.isRequired,\n",
+    "PropTypes.func.isRequired,\n",
+    "PropTypes.number.isRequired,\n",
+    "PropTypes.object.isRequired,\n",
+    "PropTypes.string.isRequired,\n",
+    "PropTypes.symbol.isRequired,\n",
+    {
+      "trigger": "PropTypes.node\tAnything renderable",
+      "contents": "PropTypes.node.isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.element\tReact element",
+      "contents": "PropTypes.element.isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.elementType\tReact element type",
+      "contents": "PropTypes.elementType.isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.instanceOf",
+      "contents": "PropTypes.instanceOf(${1:ClassName}).isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.oneOf\tInstance of classes",
+      "contents": "PropTypes.oneOf(['${1:ClassName1}','${2:ClassName2}']).isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.oneOfType\tOne of PropTypes",
+      "contents": "PropTypes.oneOfType([PropTypes.${1:type1},PropTypes.${2:type2}]).isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.arrayOf\tArray of type",
+      "contents": "PropTypes.arrayOf(PropTypes.${1:type}).isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.objectOf\tCollection of type",
+      "contents": "PropTypes.objectOf(PropTypes.${1:type}).isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.shape\tObject with props",
+      "contents": "PropTypes.shape({ ${1:propertyName}: PropTypes.${1:type} }).isRequired,\n"
+    },
+    {
+      "trigger": "PropTypes.exact\tOject only with props",
+      "contents": "PropTypes.exact({ ${1:propertyName}: PropTypes.${1:type} }).isRequired,\n"
+    },
+    "PropTypes.any.isRequired,\n"
+  ]
+}
